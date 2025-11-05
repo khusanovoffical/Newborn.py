@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: instaBozorBot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python instaBozorBot_full.py"
+    plan: free
